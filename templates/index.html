@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Personalized Email Generator — GPT-Neo</title>
+<meta name="description" content="An AI-powered tool that drafts complete, professional emails from a few details, using GPT-Neo (1.3B)." />
+<link rel="stylesheet" href="../static/css/style.css" />
+</head>
+<body>
+
+  <header class="masthead">
+    <div class="masthead__inner">
+      <span class="masthead__mark">✉</span>
+      <span class="masthead__title">The Email Generator</span>
+    </div>
+    <div class="masthead__meta">Powered by GPT&#8209;Neo · 1.3B parameters</div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero__seal" aria-hidden="true">
+        <div class="seal">
+          <span class="seal__ring"></span>
+          <span class="seal__glyph">GPT<br/>Neo</span>
+        </div>
+      </div>
+
+      <p class="hero__eyebrow">Dictated by you. Drafted by AI.</p>
+      <h1 class="hero__headline">
+        Say what you mean.<br/>
+        Let the model find the words.
+      </h1>
+      <p class="hero__lede">
+        Give it a name, an occasion, and a line or two of context —
+        the generator returns a complete, properly addressed email,
+        ready to send.
+      </p>
+
+      <div class="hero__cta">
+        <code class="hero__command">$ streamlit run app.py</code>
+        <p class="hero__cta-note">Run the live app locally — this page is a static preview only.</p>
+      </div>
+    </section>
+
+    <section class="letter" id="preview">
+      <h2 class="section-title">A letter, composed in seconds</h2>
+      <div class="letter__paper" id="letterPaper">
+        <div class="letter__line" data-label="To">Dr. Mehta</div>
+        <div class="letter__line" data-label="Subject">Invitation to AI Summit 2025</div>
+        <p class="letter__body" id="letterBody">I hope this message finds you well. I am delighted to invite you to AI Summit 2025. It will start at 10 AM and feature sessions on Responsible AI.
+
+We would be honored to have you join us and would welcome any thoughts you might like to share during the sessions.</p>
+        <div class="letter__sign">
+          <span>Best regards,</span>
+          <span>Aditi Sinharoy</span>
+        </div>
+      </div>
+      <button class="letter__replay" id="replayBtn" type="button">↻ Replay draft</button>
+    </section>
+
+    <section class="clauses" id="features">
+      <h2 class="section-title">What it handles for you</h2>
+      <ol class="clauses__list">
+        <li class="clause">
+          <h3>Nine registers, one model</h3>
+          <p>Professional, Formal, Informal, Leave Request, Job Application,
+          Complaint, Thank You, Follow-up, and Invitation — each with its
+          own tone, subject line, and sign-off.</p>
+        </li>
+        <li class="clause">
+          <h3>Structured prompt engineering</h3>
+          <p>Every request is assembled into a disciplined
+          To / Subject / Greeting / Intent template before it ever
+          reaches the model, keeping output on-topic.</p>
+        </li>
+        <li class="clause">
+          <h3>Cleaned on the way out</h3>
+          <p>A stop delimiter and de-duplication pass trim rambling or
+          repeated lines, so what you see is what you'd actually send.</p>
+        </li>
+        <li class="clause">
+          <h3>Local or hosted</h3>
+          <p>Run GPT-Neo locally with Transformers and Torch, or point the
+          same code at the Hugging Face Inference API for lighter
+          deployments.</p>
+        </li>
+      </ol>
+    </section>
+  </main>
+
+  <footer class="colophon">
+    <p>Built on <a href="https://huggingface.co/EleutherAI/gpt-neo-1.3B" target="_blank" rel="noopener">EleutherAI/gpt-neo-1.3B</a>
+    · Interface by <a href="https://streamlit.io" target="_blank" rel="noopener">Streamlit</a>
+    · MIT Licensed</p>
+  </footer>
+
+  <script src="../static/js/script.js"></script>
+</body>
+</html>
