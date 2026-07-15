@@ -1,0 +1,24 @@
+Input
+-----
+Email Type:   Formal
+Recipient:    Mr. Rajesh Kumar
+Event:        the quarterly budget review
+Extra Info:   Please confirm your availability for Thursday at 3 PM.
+Sender:       Aditi Sinharoy
+
+Generated Output
+-----------------
+To: Mr. Rajesh Kumar
+Subject: Regarding the quarterly budget review
+
+Dear Mr. Rajesh Kumar,
+I hope this message finds you well.
+I am writing to you concerning the quarterly budget review. Please confirm
+your availability for Thursday at 3 PM.
+
+I would appreciate it if we could finalize the agenda beforehand so that
+the discussion remains focused and productive. Kindly let me know if any
+additional documents are required prior to the meeting.
+
+Best regards,
+Aditi Sinharoy

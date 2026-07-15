@@ -1,0 +1,23 @@
+Input
+-----
+Email Type:   Informal
+Recipient:    Priya
+Event:        catching up this weekend
+Extra Info:   Suggest grabbing coffee near campus around 5 PM on Saturday.
+Sender:       Muskan
+
+Generated Output
+-----------------
+To: Priya
+Subject: About catching up this weekend
+
+Hi Priya,
+I hope this message finds you well.
+Just wanted to drop a quick note about catching up this weekend. Suggest
+grabbing coffee near campus around 5 PM on Saturday.
+
+Let me know if that time works for you, and if not we can always shuffle
+things around. Would be great to see you!
+
+Thanks a lot,
+Muskan

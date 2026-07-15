@@ -1,0 +1,25 @@
+Input
+-----
+Email Type:   Complaint
+Recipient:    Customer Support Team
+Event:        a defective product received in order #48213
+Extra Info:   The item arrived damaged and I would like a replacement or refund.
+Sender:       Shaik Salma
+
+Generated Output
+-----------------
+To: Customer Support Team
+Subject: Complaint Regarding a defective product received in order #48213
+
+Dear Customer Support Team,
+I hope this message finds you well.
+I am writing to raise a concern regarding a defective product received in
+order #48213. The item arrived damaged and I would like a replacement or
+refund.
+
+I have attached photos of the damage for your reference and would
+appreciate a prompt resolution. Please let me know the next steps at your
+earliest convenience.
+
+Regards,
+Shaik Salma

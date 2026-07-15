@@ -1,0 +1,26 @@
+Input
+-----
+Email Type:   Leave Request
+Recipient:    Prof. Anitha Rao
+Event:        medical leave from July 20 to July 24
+Extra Info:   I will submit a medical certificate upon my return and will
+              complete pending assignments beforehand.
+Sender:       Mohammed Afra Firdous
+
+Generated Output
+-----------------
+To: Prof. Anitha Rao
+Subject: Leave Request – medical leave from July 20 to July 24
+
+Dear Prof. Anitha Rao,
+I hope this message finds you well.
+I am writing to formally request leave regarding medical leave from July 20
+to July 24. I will submit a medical certificate upon my return and will
+complete pending assignments beforehand.
+
+I have informed my classmates and will coordinate with them to stay
+updated on any coursework covered during my absence. Thank you for your
+understanding.
+
+Sincerely,
+Mohammed Afra Firdous

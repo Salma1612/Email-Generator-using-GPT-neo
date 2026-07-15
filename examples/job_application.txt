@@ -1,0 +1,26 @@
+Input
+-----
+Email Type:   Job Application
+Recipient:    Hiring Manager
+Event:        the Machine Learning Intern position at NovaTech
+Extra Info:   I have experience with PyTorch, NLP, and have attached my
+              resume and portfolio for your review.
+Sender:       Aditi Sinharoy
+
+Generated Output
+-----------------
+To: Hiring Manager
+Subject: Application for the Machine Learning Intern position at NovaTech
+
+Dear Hiring Manager,
+I hope this message finds you well.
+I am writing to express my interest in the Machine Learning Intern position
+at NovaTech. I have experience with PyTorch, NLP, and have attached my
+resume and portfolio for your review.
+
+I am confident that my academic background and hands-on project experience
+would allow me to contribute meaningfully to your team. I would welcome the
+opportunity to discuss my application further at your convenience.
+
+Sincerely,
+Aditi Sinharoy
