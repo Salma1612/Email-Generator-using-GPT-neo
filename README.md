@@ -1,5 +1,44 @@
 # 📧 Personalized Email Generator using GPT-Neo
 
+[![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-Deployed-FF4B4B.svg)](https://streamlit.io/)
+[![Transformers](https://img.shields.io/badge/HuggingFace-Transformers-yellow.svg)](https://huggingface.co/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
+An AI-powered application that generates professional, personalized emails using **GPT-Neo (1.3B)** and **Streamlit**. Simply provide the recipient, email type, subject, and a brief context, and the model creates a complete, context-aware email in seconds.
+
+## 🚀 Live Demo
+
+👉 **Try it here:**
+
+**https://email-generator-using-gpt-neo-p5xpprpb2ozu789z3jcsfe.streamlit.app/**
+
+No installation required—open the link and start generating emails instantly.
+
+---
+
+> Built as an NLP and Generative AI project using **GPT-Neo (EleutherAI)** with prompt engineering, Hugging Face Transformers, and Streamlit.
+## ⚡ Quick Start
+
+### Option 1 — Use the Live Demo
+
+Open the deployed application:
+
+**https://email-generator-using-gpt-neo-p5xpprpb2ozu789z3jcsfe.streamlit.app/**
+
+### Option 2 — Run Locally
+
+```bash
+git clone https://github.com/<your-username>/Email-Generator.git
+
+cd Email-Generator
+
+pip install -r requirements.txt
+
+streamlit run app.py
+```
+# 📧 Personalized Email Generator using GPT-Neo
+
 An AI-powered tool that drafts complete, professional emails from just a
 handful of details — recipient, occasion, and a line of context — using
 **GPT-Neo (1.3B)**, an open-source transformer language model from
@@ -271,12 +310,18 @@ included in [`examples/`](examples/):
 
 ---
 
-## Authors
+## 👩‍💻 Author
 
-- Mohammed Afra Firdous — 23BCE9806
-- Syed Muskan — 23BCE7305
-- Shaik Salma — 23BCE20344
-- Aditi Sinharoy — 22BAI10124
+**Shaik Salma**
+
+B.Tech Computer Science Engineering (AI & ML)
+
+VIT-AP University
+
+GitHub: https://github.com/<your-username>
+
+LinkedIn: https://linkedin.com/in/<your-profile>
+
 
 *Vellore Institute of Technology — Project submitted 5th July 2025.*
 
